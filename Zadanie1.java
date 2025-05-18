@@ -1,7 +1,5 @@
-//Первая точка Алмаев У-234
 import java.util.*;
 
-// Model - обработка математических выражений
 class CalculatorModel {
     public double evaluate(String expression) {
         return new Object() {
@@ -70,7 +68,6 @@ class CalculatorModel {
     }
 }
 
-// View - пользовательский интерфейс
 class CalculatorView {
     public String getInput() {
         Scanner scanner = new Scanner(System.in);
